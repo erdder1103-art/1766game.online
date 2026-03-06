@@ -1,6 +1,6 @@
 const SITE_CONFIG = {
-  pageTitle: '1766热门手游海量BT服手游,好玩不花钱',
-  pageDescription: '精选热门手游，极速下载，注册体验。',
+  pageTitle: '1766最新最火的手游平台',
+  pageDescription: '为玩家提供最新最火的手游,热门推荐,极速下载,体验官方品质公益服的享受。',
   heroBadge: '好游戏·好福利尽在1766手游',
   brandName: '1766手游',
   heroText: '多款热门手游，官方品质，公益服体验。',

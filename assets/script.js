@@ -10,10 +10,10 @@ const SITE_CONFIG = {
   fbPixelId: '1487853023065665',
   top5RankLabels: ['Top1', 'Top2', 'Top3', 'Top4', 'Top5'],
   minFakeDownloads: 10000,
-  maxFakeDownloads: 99999,
-  jumpMin: 1,
-  jumpMax: 3,
-  jumpInterval: 60000
+  maxFakeDownloads: 999999,
+  jumpMin: 2,
+  jumpMax: 5,
+  jumpInterval: 600000
 };
 
 const GAMES = [

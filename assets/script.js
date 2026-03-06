@@ -7,7 +7,7 @@ const SITE_CONFIG = {
   top5Title: 'TOP5 下载排行榜',
   gameListTitle: '全部游戏',
   brandLogo: './assets/images/brand-logo.png',
-  fbPixelId: 'YOUR_PIXEL_ID',
+  fbPixelId: '1487853023065665',
   top5RankLabels: ['Top1', 'Top2', 'Top3', 'Top4', 'Top5'],
   minFakeDownloads: 10000,
   maxFakeDownloads: 99999,
@@ -148,7 +148,7 @@ function rand(min, max) {
 }
 
 function initFacebookPixel(pixelId) {
-  if (!pixelId || pixelId === 'YOUR_PIXEL_ID') return;
+  if (!pixelId || pixelId === '1487853023065665') return;
 
   if (!window.fbq) {
     !function(f,b,e,v,n,t,s){
@@ -266,7 +266,7 @@ function incrementDownload(gameId) {
 }
 
 function trackCustomEvent(eventName, payload = {}) {
-  if (typeof fbq !== 'undefined' && SITE_CONFIG.fbPixelId && SITE_CONFIG.fbPixelId !== 'YOUR_PIXEL_ID') {
+  if (typeof fbq !== 'undefined' && SITE_CONFIG.fbPixelId && SITE_CONFIG.fbPixelId !== '1487853023065665') {
     fbq('trackCustom', eventName, payload);
   }
   console.log('FB Event:', eventName, payload);
